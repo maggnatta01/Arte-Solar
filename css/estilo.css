@@ -1,0 +1,199 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5A4B4B;
+  background-color: #FCF8F0;
+}
+
+.navbar {
+  background-color: #C5A566 !important;
+  border-bottom: 1px solid #8B7D6C;
+}
+
+.navbar-brand img {
+  height: 45px;
+}
+
+.navbar-nav .nav-link {
+  color: #FFFFFF !important;
+  font-weight: 500;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #FFFFFF !important;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+}
+
+.navbar .d-flex.gap-2 a {
+  color: #FFFFFF !important;
+  font-size: 1.3rem;
+  margin: 0 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar .d-flex.gap-2 a:hover {
+  transform: scale(1.1);
+}
+
+.simple-carousel img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #C5A566;
+    text-align: center;
+    margin-bottom: 1.8rem;
+    font-weight: 600;
+}
+
+.card {
+  border: 1px solid #F0D8A8;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #C5A566;
+  font-weight: 500;
+}
+
+.form-control {
+  border-color: #F0D8A8;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #C5A566;
+  box-shadow: 0 0 0 0.2rem rgba(197, 165, 102, 0.2);
+}
+
+.btn-primary {
+  background-color: #C5A566 !important;
+  border-color: #C5A566 !important;
+  color: #FFFFFF !important;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #A98C51 !important;
+  border-color: #A98C51 !important;
+  transform: translateY(-2px);
+}
+
+.accordion-button {
+  background-color: #FCF8F0 !important;
+  color: #5A4B4B !important;
+  font-weight: 600;
+  border-bottom: 1px solid #F0D8A8;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #C5A566 !important;
+  color: #FFFFFF !important;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  border-color: #C5A566;
+  box-shadow: 0 0 0 0.2rem rgba(197, 165, 102, 0.2);
+}
+
+.accordion-item {
+    border: 1px solid #F0D8A8;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.accordion-body {
+    background-color: #FFFFFF;
+    color: #5A4B4B;
+    padding: 1.25rem;
+}
+
+.footer {
+  background-color: #C5A566 !important;
+  color: #FFFFFF !important;
+  padding: 25px;
+  text-align: center;
+  border-top: 2px solid #8B7D6C;
+  margin-top: 5rem !important;
+}
+
+.carousel-item img {
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #C5A566;
+    height: 4px;
+    width: 30px;
+    border-radius: 2px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+    font-size: 2rem;
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.text-warning, .text-success, .text-info {
+    color: #C5A566 !important;
+}
+
+header h1 {
+    color: #C5A566;
+    margin-top: 30px;
+    font-size: 3.5rem;
+}
+header p {
+    color: #5A4B4B;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+iframe {
+    border: 2px solid #F0D8A8;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    height: 480px;
+}
+
+.bg-primary.text-white.text-center.p-4.mt-5 {
+    background-color: #C5A566 !important;
+    color: #FFFFFF !important;
+}
